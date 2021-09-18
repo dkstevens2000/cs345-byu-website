@@ -6,14 +6,14 @@ Current website: https://students.cs.byu.edu/~cs345ta/
 # Division of Work
 ### Hardest
 Schedule/Calendar - \
-Content - \
+Content - 
 
 ### Somewhat Hard
 Header/Navigation Page - \
-Homepage - \
+Homepage - 
 
 ### Easiest 
 Syllabus - \
 Projects - \
 Presentations - \
-Reference - \
+Reference - 
