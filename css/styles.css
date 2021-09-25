@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3 {
+  font-size: 20px;
+}
+.nada {
+  margin-top: 50px;
+}
+ .top-header {
+   background-color: #0f3365;
+   display: flex;
+   color: white;
+ }
+ #byu_logo {
+   width: 150px;
+   height: auto;
+ }
+ .top-header-box-2 {
+   margin: 20px;
+ }
+.navbar {
+  margin-top: 0;
+  background-color: #041b47 !important;
+}
+.nav-link {
+  color: white !important;
+}
+.footer {
+  /* margin-top: 50px; */
+  width: 100%;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+@media only screen and (min-width: 1201px) {
+
+  .footer {
+    height: 50px;
+  }
+  .footer-text-desktop {
+    padding-top: 10px;
+    margin-left: 50px;
+    text-align: center;
+    height: 20%;
+  }
+
+  .footer-text-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1200px) {
+  .footer {
+    padding-top: 10px;
+    height: 200px;
+  }
+  .footer-text-desktop {
+    display: none;
+  }
+  .footer-text-mobile {
+    text-align: center;
+  }
+}

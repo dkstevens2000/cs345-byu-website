@@ -6,41 +6,22 @@
 h3 {
   font-size: 20px;
 }
-.nada {
-  margin-top: 50px;
-}
- .top-header {
-   background-color: #0f3365;
-   display: flex;
-   color: white;
- }
- #byu_logo {
-   width: 150px;
-   height: auto;
- }
- .top-header-box-2 {
-   margin: 20px;
- }
-.navbar {
-  margin-top: 0;
-  background-color: #041b47 !important;
-}
-.nav-link {
-  color: white !important;
+.roper {
+  height: 80%;
 }
 .space-roper-right {
   background-color: #F2F2F3;
   color: #F2F2F3;
   width: 20%;
   float: right;
-  height: 100%;
+  height: 80%;
 }
 .space-roper-left {
   background-color: #F2F2F3;
   color: #F2F2F3;
   width: 20%;
   float: left;
-  height: 100%;
+  height: 80%;
 }
 #proper-image {
   width: 250px;
