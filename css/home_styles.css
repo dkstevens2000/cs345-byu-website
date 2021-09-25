@@ -6,51 +6,71 @@
 h3 {
   font-size: 20px;
 }
-.roper {
-  height: 80%;
+
+@media only screen and (min-width: 1201px) {
+  .space-roper-right {
+    background-color: #F2F2F3;
+    color: #F2F2F3;
+    width: 20%;
+    float: right;
+    height: 80%;
+  }
+  .space-roper-left {
+    background-color: #F2F2F3;
+    color: #F2F2F3;
+    width: 20%;
+    float: left;
+    height: 80%;
+  }
+
+  .roper {
+    height: 80%;
+  }
+  #proper-image {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .roper-container {
+    display: flex;
+    /* background-color: #808080;*/
+  }
+  .home-contents-roper {
+    display: flex;
+    margin: 25px;
+    margin-top: 60px;
+    width: 100%;
+    justify-content: center;
+    /*background-color: #FFFFFF;*/
+  }
+  .roper-contact-info {
+    padding-left: 50px;
+    vertical-align: middle;
+  }
+  .home-class-sections {
+    display: flex;
+    text-align: center;
+  }
+  .class-sections {
+    text-align: center;
+    width: 100%;
+  }
+
+
 }
-.space-roper-right {
-  background-color: #F2F2F3;
-  color: #F2F2F3;
-  width: 20%;
-  float: right;
-  height: 80%;
-}
-.space-roper-left {
-  background-color: #F2F2F3;
-  color: #F2F2F3;
-  width: 20%;
-  float: left;
-  height: 80%;
-}
-#proper-image {
-  width: 250px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.roper-container {
-  display: flex;
-  /* background-color: #808080;*/
-}
-.home-contents-roper {
-  display: flex;
-  margin: 25px;
-  margin-top: 60px;
-  width: 100%;
-  justify-content: center;
-  /*background-color: #FFFFFF;*/
-}
-.roper-contact-info {
-  padding-left: 50px;
-  vertical-align: middle;
-}
-.home-class-sections {
-  display: flex;
-  text-align: center;
-}
-.class-sections {
-  text-align: center;
-  width: 100%;
+
+@media only screen and (min-width: 400px) and (max-width: 1200px) {
+  .navbar-toggler {
+    -webkit-filter: brightness(0) invert(1);
+     filter: brightness(0) invert(1);
+  }
+
+  .roper {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
