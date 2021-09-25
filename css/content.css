@@ -1,0 +1,50 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.side-nav {
+    position: fixed;
+    right: 0px;
+    border-left: 2px solid lightgray;
+    height: 100%;
+    padding: 16px;
+    width: fit-content;
+}
+
+.side-nav ul {
+    list-style-type: none;
+}
+
+.side-nav a {
+    color:rgb(102, 102, 102);
+}
+.side-nav a:hover {
+    color: #041b47;
+}
+
+.main-content {
+    margin: 0px 16px;
+}
+
+section {
+    margin: 16px;
+}
+
+.chapter-box {
+    display: flex;
+}
+.chapter {
+    margin-right: 32px;
+}
+
+.section-head {
+
+}
+
+.section-content {
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+.section-content ul {
+    list-style-type: none;
+}
