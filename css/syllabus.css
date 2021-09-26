@@ -1,0 +1,52 @@
+.main-content {
+    margin: 32px;
+}
+.syl-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    margin: 32px auto;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    margin: 0px auto;
+    width: fit-content;
+}
+
+.flex-container ul {
+    margin: 0px 32px;
+    list-style: none;
+}
+
+.grade-list {
+    margin-left: 16px;
+    list-style: none;
+}
+
+.section {
+    margin: 16px;
+}
+
+.section h4 {
+    text-decoration: underline;
+}
+
+.section ul {
+    padding-left: 32px;
+}
+
+.important {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
