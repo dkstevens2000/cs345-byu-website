@@ -35,6 +35,20 @@ h3 {
 }
 
 @media only screen and (min-width: 1201px) {
+  .space-right {
+    background-color: #F2F2F3;
+    color: #F2F2F3;
+    width: 20%;
+    float: right;
+    height: 80%;
+  }
+  .space-left {
+    background-color: #F2F2F3;
+    color: #F2F2F3;
+    width: 20%;
+    float: left;
+    height: 80%;
+  }
 
   .top-header {
     display: flex;

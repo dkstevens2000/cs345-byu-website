@@ -8,20 +8,7 @@ h3 {
 }
 
 @media only screen and (min-width: 1201px) {
-  .space-roper-right {
-    background-color: #F2F2F3;
-    color: #F2F2F3;
-    width: 20%;
-    float: right;
-    height: 80%;
-  }
-  .space-roper-left {
-    background-color: #F2F2F3;
-    color: #F2F2F3;
-    width: 20%;
-    float: left;
-    height: 80%;
-  }
+
 
   .roper {
     height: 80%;

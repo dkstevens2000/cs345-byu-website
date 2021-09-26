@@ -1,0 +1,27 @@
+.reference-links {
+  padding-top: 50px;
+  text-align: center;
+}
+
+
+
+@media only screen and (min-width: 1201px) {
+  .container-references {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .space-right-reference-page {
+    background-color: #F2F2F3;
+    color: #F2F2F3;
+    /* width: 20%; */
+    height: 80%;
+  }
+  .space-left-reference-page {
+    background-color: #F2F2F3;
+    color: #F2F2F3;
+  /*  width: 20%; */
+    height: 80%;
+  }
+}
