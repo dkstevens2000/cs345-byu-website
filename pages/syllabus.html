@@ -28,22 +28,22 @@
               <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/information.html">Information</a>
+              <a class="nav-link" href="../information.html">Information</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/syllabus.html">Syllabus</a>
+              <a class="nav-link" href="../syllabus.html">Syllabus</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/schedule.html">Schedule</a>
+              <a class="nav-link" href="../schedule.html">Schedule</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="pages/content.html">Content <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="../content.html">Content <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/projects.html">Projects</a>
+              <a class="nav-link" href="../projects.html">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/reference.html">Reference</a>
+              <a class="nav-link" href="../reference.html">Reference</a>
             </li>
           </ul>
         </div>
@@ -77,27 +77,27 @@
                 <li>CS 224, 240, and a knowledge of C are prerequisites for CS 345 (or the instructor's consent).
                 </li>
                 <li>
-                    The text for the course is "Operating Systems Internals and Design Principles (7th Edition or later)" 
-                    by William Stallings.  This book will be used extensively throughout the course including homework 
+                    The text for the course is "Operating Systems Internals and Design Principles (7th Edition or later)"
+                    by William Stallings.  This book will be used extensively throughout the course including homework
                     assignments.
                 </li>
                 <li>
-                    All class materials are available on the CS 345 Web Site (http://students.cs.byu.edu/~cs345ta/).  
-                    This includes the class syllabus, schedule, PowerPoint lectures, homework, programming assignments, 
-                    messages, and other reference material.  All homework, labs, and exam scores will be recorded in 
-                    BYU Learning Suite Grades.   It is the responsibility of each to student to verify that all grades 
+                    All class materials are available on the CS 345 Web Site (http://students.cs.byu.edu/~cs345ta/).
+                    This includes the class syllabus, schedule, PowerPoint lectures, homework, programming assignments,
+                    messages, and other reference material.  All homework, labs, and exam scores will be recorded in
+                    BYU Learning Suite Grades.   It is the responsibility of each to student to verify that all grades
                     have been correctly recorded.
                 </li>
                 <li>
-                    Each student will individually implement a preemptive, prioritized operating system with virtual 
+                    Each student will individually implement a preemptive, prioritized operating system with virtual
                     memory and file management capabilities.
                 </li>
-            </ul> 
-        
+            </ul>
+
             <p>
-                The objective of this course is to study the principles of concurrency and resource management 
-                with respect to the design and implementation of contemporary computer operating systems.  CS 345 
-                is designed for students majoring in Computer Science or in areas having a strong emphasis in 
+                The objective of this course is to study the principles of concurrency and resource management
+                with respect to the design and implementation of contemporary computer operating systems.  CS 345
+                is designed for students majoring in Computer Science or in areas having a strong emphasis in
                 Computer Science.  At the end of the course, the student will have...
             </p>
             <ul>
@@ -111,68 +111,68 @@
         <div class="section">
             <h4>Class Lectures</h4>
             <p>
-                PowerPoint lectures and class discussions will be presented in person as outlined on the course schedule.  
-                There will be no Zoom recordings available for students.  Information may be given in class that is not 
+                PowerPoint lectures and class discussions will be presented in person as outlined on the course schedule.
+                There will be no Zoom recordings available for students.  Information may be given in class that is not
                 in the text nor on the class website.  It is very important that students attend class and take careful notes.
             </p>
         </div>
         <div class="section">
             <h4>Computer Programming Assignments</h4>
             <p>
-                CS 345 programming assignments consist of six labs that build upon each other and are designed to 
+                CS 345 programming assignments consist of six labs that build upon each other and are designed to
                 emphasize topics and objectives discussed in class.
             </p>
             <ul>
                 <li>
-                    <b>Lab 1: Shell</b> - Write a Shell (Command Language Interpreter) to parse textual commands entered 
-                    from the user’s keyboard, malloc argument variables, handle signals, and execute programs directly or 
+                    <b>Lab 1: Shell</b> - Write a Shell (Command Language Interpreter) to parse textual commands entered
+                    from the user’s keyboard, malloc argument variables, handle signals, and execute programs directly or
                     as child processes.
                 </li>
                 <li>
-                    <b>Lab 2: Scheduler</b> - Write a five-state task scheduler capable of executing up to 128 tasks in a 
-                    preemptive, prioritized, round-robin manner.  Implement binary and counting semaphores and schedule 
-                    your shell as its first task with pseudo-interrupt driven character input.  Add timer semaphores and 
+                    <b>Lab 2: Scheduler</b> - Write a five-state task scheduler capable of executing up to 128 tasks in a
+                    preemptive, prioritized, round-robin manner.  Implement binary and counting semaphores and schedule
+                    your shell as its first task with pseudo-interrupt driven character input.  Add timer semaphores and
                     tasks to validate your implementation.
                 </li>
                 <li>
-                    <b>Lab 3: Jurassic Park</b> - Jurassic Park is an inter-process communication and synchronization 
-                    problem between multiple tasks.  Visitors to the park purchase a ticket, wait to take a ride on a 
-                    park tour car to see the dinosaurs, and then visit the museum and gift shops before leaving the park.  
-                    Since the park is on a limited budget, drivers must perform double duty when not sleeping by selling 
-                    tickets and driving the tour cars.  Visitors, drivers, and cars are represented by concurrent tasks 
+                    <b>Lab 3: Jurassic Park</b> - Jurassic Park is an inter-process communication and synchronization
+                    problem between multiple tasks.  Visitors to the park purchase a ticket, wait to take a ride on a
+                    park tour car to see the dinosaurs, and then visit the museum and gift shops before leaving the park.
+                    Since the park is on a limited budget, drivers must perform double duty when not sleeping by selling
+                    tickets and driving the tour cars.  Visitors, drivers, and cars are represented by concurrent tasks
                     while an additional task is used to display the park status every second.
                 </li>
                 <li>
-                    <b>Lab 4: Virtual Memory</b> - Add a Memory Management Unit to your OS that translates virtual 
-                    addresses to physical addresses in a restricted memory space such that 16 LC-3 crawler and/or 
+                    <b>Lab 4: Virtual Memory</b> - Add a Memory Management Unit to your OS that translates virtual
+                    addresses to physical addresses in a restricted memory space such that 16 LC-3 crawler and/or
                     memory test programs execute concurrently in 2 frames of physical memory (128 words).
                 </li>
                 <li>
-                    <b>Lab 5: FSS Scheduling</b> - Add a Fair Share Scheduler (FFS) to your OS scheduler to maximize 
-                    overall CPU utilization while also maximizing interactive performance.  Instead of using run queues, 
+                    <b>Lab 5: FSS Scheduling</b> - Add a Fair Share Scheduler (FFS) to your OS scheduler to maximize
+                    overall CPU utilization while also maximizing interactive performance.  Instead of using run queues,
                     implement a "fair" timeline of future task execution.
                 </li>
                 <li>
-                    <b>Lab 6: FAT</b> - Add a MS-DOS&reg; FAT-12 file manager to your OS that is able to traverse file 
-                    directories, view file data, and load/execute LC-3 programs from files.  In addition, use system 
-                    buffering, file descriptors, and file pointers to modify file allocation tables (FAT), directory 
+                    <b>Lab 6: FAT</b> - Add a MS-DOS&reg; FAT-12 file manager to your OS that is able to traverse file
+                    directories, view file data, and load/execute LC-3 programs from files.  In addition, use system
+                    buffering, file descriptors, and file pointers to modify file allocation tables (FAT), directory
                     structures and cluster chains.
                 </li>
             </ul>
- 
+
 
             <p>Please pay careful attention to the following programming guidelines:</p>
             <ul>
                 <li>Programming labs are found under the "Projects" tab on the on the CS 345 Website (http://students.cs.byu.edu/~cs345ta/).</li>
                 <li>Labs are to be passed off on-line with personal laptops (via Zoom?).</li>
                 <li>
-                    Labs completed and passed off with a "Date Modified" timestamp dated on or before the due 
+                    Labs completed and passed off with a "Date Modified" timestamp dated on or before the due
                     date receive full credit.  Timestamps cannot be used for extra credit points and no older than one week.
                 </li>
                 <li>Portions of labs submitted after the due date will receive 50% credit.</li>
                 <li>
-                    As an incentive to get your labs done on-time, assignments completed and passed off at 
-                    <span class="important">least one day before the due date</span> (timestamps do not count) 
+                    As an incentive to get your labs done on-time, assignments completed and passed off at
+                    <span class="important">least one day before the due date</span> (timestamps do not count)
                     will receive an extra credit point (10%).
                 </li>
                 <li>All six programming assignments must be completed (functional) to receive an 'A' grade.</li>
@@ -181,18 +181,18 @@
         <div class="section">
             <h4>Programming Environments</h4>
             <p>
-                The choice of the software tools and programming environment is left up to the student’s discretion.  
+                The choice of the software tools and programming environment is left up to the student’s discretion.
                 The C programming language will be used for the programming assignments.
             </p>
-             
+
         </div>
         <div class="section">
             <h4>Homework / Reading Quizzes</h4>
             <p>
-                Homework and reading quizzes are designed to reinforce class material, help in exam preparation, 
-                and to encourage students to stay current with reading assignments.  In-class participation is 
-                strongly correlated with a student’s understanding of the subject matter. Students may be 
-                randomly selected to present their homework solutions to the class. 
+                Homework and reading quizzes are designed to reinforce class material, help in exam preparation,
+                and to encourage students to stay current with reading assignments.  In-class participation is
+                strongly correlated with a student’s understanding of the subject matter. Students may be
+                randomly selected to present their homework solutions to the class.
             </p>
             <ul>
                 <li>Links to homework assignments can be found under "Content" tab.</li>
@@ -200,29 +200,29 @@
                 <li>Any homework submitted after the due date will be worth 50%.</li>
             </ul>
             <p>
-                You are welcome and encouraged to discuss the homework with your classmates and others.  
-                However, you are to do and submit your own work.  Submitting someone's work is considered 
-                cheating for which you will receive an E grade for the class and be reported to the Honor 
+                You are welcome and encouraged to discuss the homework with your classmates and others.
+                However, you are to do and submit your own work.  Submitting someone's work is considered
+                cheating for which you will receive an E grade for the class and be reported to the Honor
                 Code Office.  No grade is worth the consequences of dishonesty!
-            </p>              
+            </p>
         </div>
         <div class="section">
             <h4>Class Presentations</h4>
             <p>
-                At the end of the semester, each student is given the opportunity to present a specific OS 
-                topic with respect to an assigned contemporary operating system.  Your presentation will be 
-                peer graded and should be complete (ie., self-contained, concise, relevant, adequately 
-                addressed topic), insightful (ie., researched, thoughtful, shows effort), and presented 
-                well (ie., materials, slides, handouts, examples, stage presence, well organized, intro/summary).  
-                Your presentation and peer evaluations, along with your source code submission, will be the 
+                At the end of the semester, each student is given the opportunity to present a specific OS
+                topic with respect to an assigned contemporary operating system.  Your presentation will be
+                peer graded and should be complete (ie., self-contained, concise, relevant, adequately
+                addressed topic), insightful (ie., researched, thoughtful, shows effort), and presented
+                well (ie., materials, slides, handouts, examples, stage presence, well organized, intro/summary).
+                Your presentation and peer evaluations, along with your source code submission, will be the
                 final exam for the course.
             </p>
         </div>
         <div class="section">
             <h4>Exams</h4>
             <p>
-                Two midterms will be administered during the term via Learning Suite per the course schedule.  
-                The course final is your presentation, peer evaluations, and submission of your zipped source 
+                Two midterms will be administered during the term via Learning Suite per the course schedule.
+                The course final is your presentation, peer evaluations, and submission of your zipped source
                 code. Post your OS zipped C source code to Learning Suite on or before the end of BYU finals.
             </p>
         </div>
@@ -270,7 +270,7 @@
             <ul>
                 <li>To receive an A grade for the course, a student must complete all six programming assignments.</li>
                 <li>
-                    In addition, any student who completes all six programming assignments (regardless of the late points) 
+                    In addition, any student who completes all six programming assignments (regardless of the late points)
                     and passes the final exam, will receive at least a passing grade (C-).
                 </li>
                 <li>The university policies on 'UW' and 'I' grades will strictly be followed.</li>
@@ -279,68 +279,68 @@
         <div class="section">
             <h4>Grading Verification and Appeal Policy</h4>
             <p>
-                It is the student's responsibility to verify that lab, homework, and exam scores have been correctly 
-                recorded in Gradebook before the last day of class.  Please disregard Gradebook's grading system (ie, 
+                It is the student's responsibility to verify that lab, homework, and exam scores have been correctly
+                recorded in Gradebook before the last day of class.  Please disregard Gradebook's grading system (ie,
                 final grade, maximum points, etc.) until further notice.
             </p>
         </div>
         <div class="section">
             <h4>Academic Honesty</h4>
             <p>
-                The Honor Code includes a statement of standards regarding academic honesty.  Academic honesty includes 
-                completing your own homework, programming assignments, midterms, and final.  Students should work together 
-                to help each other understand material but should always turn in their own work.  Examples of academic 
-                dishonesty include sharing code for assignments with other students, turning in someone else's code as 
-                your own, sharing exam material with other students, and cheating on an exam.  Any violation of academic 
-                honesty standards will result in failing the class.  All violations of academic honesty are documented and 
+                The Honor Code includes a statement of standards regarding academic honesty.  Academic honesty includes
+                completing your own homework, programming assignments, midterms, and final.  Students should work together
+                to help each other understand material but should always turn in their own work.  Examples of academic
+                dishonesty include sharing code for assignments with other students, turning in someone else's code as
+                your own, sharing exam material with other students, and cheating on an exam.  Any violation of academic
+                honesty standards will result in failing the class.  All violations of academic honesty are documented and
                 reported to the Honor Code office.
             </p>
             <p>
-                Posting, downloading, or viewing any classwork on a public repository such as GitHub is considered cheating. 
+                Posting, downloading, or viewing any classwork on a public repository such as GitHub is considered cheating.
                 This policy applies even after this class ends &mdash; grades can be changed at any time!
             </p>
         </div>
         <div class="section">
             <h4>Preventing Sexual Harassment and Discrimination</h4>
             <p>
-                Title IX of the Education Amendments of 1972 prohibits sex discrimination against any participant in an 
-                educational program or activity that receives federal funds.  The act is intended to eliminate sex 
-                discrimination in education.  Title IX covers discrimination in programs, admissions, activities, and 
-                student-to-student sexual harassment.  The BYU policy against sexual harassment extends not only to employees 
-                of the university but to students as well.  If you encounter unlawful sexual harassment or gender based 
-                discrimination, please talk to your professor; contact the Equal Employment Office at 378-5895 or 367-5689 
+                Title IX of the Education Amendments of 1972 prohibits sex discrimination against any participant in an
+                educational program or activity that receives federal funds.  The act is intended to eliminate sex
+                discrimination in education.  Title IX covers discrimination in programs, admissions, activities, and
+                student-to-student sexual harassment.  The BYU policy against sexual harassment extends not only to employees
+                of the university but to students as well.  If you encounter unlawful sexual harassment or gender based
+                discrimination, please talk to your professor; contact the Equal Employment Office at 378-5895 or 367-5689
                 (24-hours); or contact the Honor Code Office at 378-2847.
             </p>
         </div>
         <div class="section">
             <h4>Students with Disabilities</h4>
             <p>
-                Brigham Young University is committed to providing a working and learning atmosphere which reasonably 
-                accommodates qualified persons with disabilities.  If you have any disability which may impair your ability 
-                to complete this course successfully, please contact the Services for Students with Disabilities Office 
-                (378-2767).  Reasonable academic accommodations are reviewed for all students who have qualified documented 
-                disabilities.  Services are coordinated with the student and instructor by the SSD Office.  If you need 
-                assistance or if you feel you have been unlawfully discriminated against on the basis of disability, you 
-                may seek resolution through established grievance policy and procedures.  You should contact the Equal 
+                Brigham Young University is committed to providing a working and learning atmosphere which reasonably
+                accommodates qualified persons with disabilities.  If you have any disability which may impair your ability
+                to complete this course successfully, please contact the Services for Students with Disabilities Office
+                (378-2767).  Reasonable academic accommodations are reviewed for all students who have qualified documented
+                disabilities.  Services are coordinated with the student and instructor by the SSD Office.  If you need
+                assistance or if you feel you have been unlawfully discriminated against on the basis of disability, you
+                may seek resolution through established grievance policy and procedures.  You should contact the Equal
                 Employment Office at 378-5895, D-282 ASB.
             </p>
         </div>
         <div class="section">
             <h4>Disclaimer</h4>
             <p>
-                This syllabus is subject to change during the semester in favor of the student as deemed necessary by 
-                the instructor.  It is the student's responsibility to stay current with class policies and check the 
+                This syllabus is subject to change during the semester in favor of the student as deemed necessary by
+                the instructor.  It is the student's responsibility to stay current with class policies and check the
                 class website, Learning Suite, and their email often during the week.
             </p>
         </div>
         <div class="section">
             <h4>Incomplete Grade</h4>
             <p>
-                A grade of incomplete will be given only if you have serious (usually medical) problems that prevent 
-                you from completing the course, can produce documentation, and are passing the course with most of it 
-                complete. Should you get a grade of incomplete, together with the instructor, you will agree on a plan 
-                to complete the course in a reasonable period of time. The scores that you acquired up until the event 
-                which prevents you from completing the course will be included in the computation of your grade. Never 
+                A grade of incomplete will be given only if you have serious (usually medical) problems that prevent
+                you from completing the course, can produce documentation, and are passing the course with most of it
+                complete. Should you get a grade of incomplete, together with the instructor, you will agree on a plan
+                to complete the course in a reasonable period of time. The scores that you acquired up until the event
+                which prevents you from completing the course will be included in the computation of your grade. Never
                 will an incomplete be given to avoid a bad grade!  NO EXCEPTIONS!.
             </p>
         </div>
